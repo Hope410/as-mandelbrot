@@ -1,0 +1,20 @@
+{
+  "options": {},
+  "targets": {
+    "debug": {
+      "binaryFile": "assembly/wasm/index.wasm",
+      "debug": true,
+      "sourceMap": true,
+      "textFile": "assembly/wasm/index.wat"
+    },
+    "release": {
+      "binaryFile": "assembly/wasm/index.wasm",
+      "converge": false,
+      "noAssert": false,
+      "optimizeLevel": 3,
+      "shrinkLevel": 1,
+      "sourceMap": true,
+      "textFile": "assembly/wasm/index.wat"
+    }
+  }
+}
